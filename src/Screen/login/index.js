@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import React, {useState, useContext} from 'react';
 import CheckBox from '@react-native-community/checkbox';
-import { UserContext } from '../../components/users/UserContext';
+import {UserContext} from '../../components/users/UserContext';
 
 const LoginScreens = props => {
   const {navigation} = props;
